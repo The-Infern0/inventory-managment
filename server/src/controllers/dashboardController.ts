@@ -41,7 +41,7 @@ export const getDashboardMetrics = async (
       }
     );
     const expenseByCategorySummary = expenseByCategorySummaryRaw.map(
-      (item) => ({
+      (item: { amount: number }) => ({
         ...item,
         amount: item.amount.toString(),
       })

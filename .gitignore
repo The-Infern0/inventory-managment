@@ -5,3 +5,4 @@ server/dist/
 client/.env/
 server/.env/
 client/.next/
+server/prisma/migrations/20240711174419_init/migration.sql
